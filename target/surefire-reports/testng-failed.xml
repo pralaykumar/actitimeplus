@@ -6,17 +6,10 @@
       <class name="com.actitime.testcases.TC2_CreateCustomerLogout">
         <methods>
           <include name="setup"/>
-          <include name="createCustomer"/>
           <include name="teardown"/>
+          <include name="createCustomer"/>
         </methods>
       </class> <!-- com.actitime.testcases.TC2_CreateCustomerLogout -->
-      <class name="com.actitime.testcases.TC1_ActitimeLoginLogout">
-        <methods>
-          <include name="setup"/>
-          <include name="loginlogout"/>
-          <include name="teardown"/>
-        </methods>
-      </class> <!-- com.actitime.testcases.TC1_ActitimeLoginLogout -->
       <class name="com.actitime.testcases.TC3_CreateWorkLogout">
         <methods>
           <include name="setup"/>
@@ -24,6 +17,13 @@
           <include name="creatework"/>
         </methods>
       </class> <!-- com.actitime.testcases.TC3_CreateWorkLogout -->
+      <class name="com.actitime.testcases.TC1_ActitimeLoginLogout">
+        <methods>
+          <include name="setup"/>
+          <include name="loginlogout"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.actitime.testcases.TC1_ActitimeLoginLogout -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
